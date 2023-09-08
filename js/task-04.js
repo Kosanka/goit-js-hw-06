@@ -1,5 +1,6 @@
-const counterValue = document.getElementById("value");
-  let currentValue = 0;
+  const counterValue = document.querySelector('#value');
+let currentValue = 0;
+counterValue.textContent = currentValue;
 
   const decrementButton = document.querySelector('[data-action="decrement"]');
   const incrementButton = document.querySelector('[data-action="increment"]');
@@ -13,3 +14,4 @@ const counterValue = document.getElementById("value");
     currentValue += 1;
     counterValue.textContent = currentValue;
   });
+

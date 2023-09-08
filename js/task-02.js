@@ -6,7 +6,7 @@ const ingredients = [
   'Herbs',
   'Condiments',
 ];
-const ul = document.getElementById("ingredients");
+const ul = document.querySelector("#ingredients");
 
 const fragment = document.createDocumentFragment();
 
